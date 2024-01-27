@@ -37,6 +37,8 @@ find-point-1122.png"""
 
 #!/bin/python3
 
+#!/bin/python3
+
 import math
 import os
 import random
@@ -55,7 +57,8 @@ import sys
 #
 
 def findPoint(px, py, qx, qy):
-    # Write your code here
+    return (2*qx-px , 2 * qy - py)
+    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
